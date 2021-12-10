@@ -60,6 +60,7 @@ namespace PasswordManager
             this.buttonLogout = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.labelViewingUser = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInfo)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPasswordLength)).BeginInit();
@@ -362,11 +363,21 @@ namespace PasswordManager
             this.labelViewingUser.Size = new System.Drawing.Size(0, 13);
             this.labelViewingUser.TabIndex = 26;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(706, 426);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 27;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 447);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.labelViewingUser);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.buttonLogout);
@@ -431,5 +442,6 @@ namespace PasswordManager
         private System.Windows.Forms.Button buttonLogout;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label labelViewingUser;
+        private System.Windows.Forms.Button button1;
     }
 }

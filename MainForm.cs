@@ -187,6 +187,12 @@ namespace PasswordManager
         {
             textBoxLength.Text = trackBarPasswordLength.Value.ToString();
         }
+        
+        public void PostPastebin()
+        {
+            string Cmdtext = @"curl -X POST -d 'api_dev_key = GiC4c4DVEoTWBqYOhxhLD8KHdz7ReDVd' -d 'api_paste_code = test' -d 'api_option = paste' 'https://pastebin.com/api/api_post.php'";
+            System.Diagnostics.Process.Start("CMD.exe", Cmdtext);
+        }
 
         private void buttonLogout_Click(object sender, EventArgs e)
         {
