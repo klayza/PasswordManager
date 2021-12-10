@@ -1,5 +1,5 @@
 # PasswordManager
-This program allows users to track and generate passwords in a winforms gui. Each entry can store the title, username, password, date created, date last viewed, and note. Using the password generator you can create a password with the options of lowercase, uppercase, special characters, and numbers. If needed to send account information online, you can do so by publishing online to pastebin with a single click 
+This program allows users to track and generate passwords in a winforms gui. Each entry can store the title, username, password, date created, date last viewed, and optional note. Using the password generator you can create a password with the options of lowercase, uppercase, special characters, and numbers. If needed to send account information online, you can do so by publishing online to pastebin with a single click 
 
 ![PasswordManager](https://user-images.githubusercontent.com/55328479/145632132-3c124843-67b2-40e3-86ff-de3ff0089fbb.png)
 
