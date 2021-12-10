@@ -12,4 +12,4 @@ This program allows users to track and generate passwords in a winforms gui. Eac
 2. Log in
 3. Enter in the fields accordingly by Title, Username, Password, and optional Note.
 4. Submit
-- ![PasswordManagerFlow](https://user-images.githubusercontent.com/55328479/145632175-4ff6a490-f9a7-46b6-923a-22d1e8f93316.png)
+
