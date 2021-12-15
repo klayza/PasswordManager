@@ -17,8 +17,6 @@ namespace PasswordManager
     {
         public Form1()
         {
-            MainForm m = new MainForm();
-            m.PostPastebin();
             InitializeComponent();
         }
 

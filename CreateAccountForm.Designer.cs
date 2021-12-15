@@ -29,6 +29,7 @@ namespace PasswordManager
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateAccountForm));
             this.label1 = new System.Windows.Forms.Label();
             this.button1Submit = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -121,8 +122,9 @@ namespace PasswordManager
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.textBoxUsername);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CreateAccountForm";
-            this.Text = "CreateAccount";
+            this.Text = "Create";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

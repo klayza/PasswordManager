@@ -53,6 +53,15 @@ namespace PasswordManager
             }
         }
 
+        // Changes the last viewed date given a user
+        public static void ChangeLastViewed(string user)
+        {
+            using (IDbConnection cnn = new SQLiteConnection(LoadConnectionString("Users")))
+            {
+                cnn.Execute("");
+            }
+        }
+
 
         // Loads the connection string
         private static string LoadConnectionString(string id)

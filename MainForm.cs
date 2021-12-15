@@ -163,8 +163,8 @@ namespace PasswordManager
                 upi.Title = textBoxTitle.Text;
                 upi.Username = textBoxUsername.Text;
                 upi.Password = textBoxPassword.Text;
-                upi.DateCreated = DateTime.Now.ToString("M/d/yyyy");
-                upi.DateLastViewed = DateTime.Now.ToString("M/d/yyyy");              // Will need method that tracks when a user logs into an account, then saves it to db under their username
+                upi.DateCreated = DateTime.Now.ToString("M/d/yyyy | h:m tt");
+                upi.DateLastViewed = "Now";              // Will need method that tracks when a user logs into an account, then saves it to db under their username
                 upi.Note = textBoxNote.Text;
                 upi.Owner = Username;
                 Database.SavePasswordInfo(upi);
@@ -188,6 +188,7 @@ namespace PasswordManager
             textBoxLength.Text = trackBarPasswordLength.Value.ToString();
         }
         
+        // Not working
         public void PostPastebin()
         {
             string Cmdtext = @"curl -X POST -d 'api_dev_key = GiC4c4DVEoTWBqYOhxhLD8KHdz7ReDVd' -d 'api_paste_code = test' -d 'api_option = paste' 'https://pastebin.com/api/api_post.php'";
