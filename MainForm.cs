@@ -42,7 +42,7 @@ namespace PasswordManager
 
         public void LabelViewing(string username)
         {
-            labelViewingUser.Text = username + "/SIMON";
+            labelViewingUser.Text = username;
         }
 
         // Will generate a random number and depending on the user's choice of added keys will add that key to the password
